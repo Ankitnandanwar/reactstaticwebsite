@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.navbar{
+  background-color: rgb(255, 255, 255) !important;
+  /* border-bottom: 1px solid black; */
+}
+.navbar-brand{
+  font-size: 1.9rem !important;
+  color: #030303 !important;
+  font-weight: 700;
+}
+.navbar a{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+/* .menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+} */
+.navbar-nav{
+  margin-left: auto
+}
+.header-img img{
+  height: 40rem;
+  margin-left: 10rem;
+}
+.header-img,animate{
+  animation: updown 2s ease-in-out infinite alternate-reverse both;
+  /* background-color: #030303; */
+}
+/* @keyframes updown{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+} */
+
+.mt-3 a{
+  font-weight: 800;
+  font-size: 17px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: brown;
+  border: 3px solid brown;
+  text-decoration: none;
+}
+.mt-3 a:hover{
+  background-color: brown;
+  color: rgb(255, 255, 255);
+}
+.Headermain{
+  color: brown;
+  font-weight:bold;
+  font-size: 8rem;
+}
+
+
+
+/* Footer CSS */
+.div2{
+  width: 100%;
+  height: 55vh;
+  float: left;
+  background-color: rgb(226, 224, 224);
+}
+.div2 table{
+  position: relative;
+  top: 80px;
+  left: 120px;
+  cursor: pointer;
+  font-weight: 700;
+
+}
+.div2 table tr td, th{
+  width: 500px;
+  height: 30px;
+}
+.div2 table tr th{
+  text-align: start;
+  font-size: 25px;
+  font-weight: 900;
+}
+.div2 table tr td{
+  text-align: start;
+}
+.socialicons{
+  width: 100%;
+  height: 50px;
+  /* background-color: #030303; */
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socialicons,.fa-brands{
+  padding: 7px;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+/* Contact Us CSS */
+.ContactCon{
+  width: 100%;
+  height: 70vh;
+  float: left;
+  background-color: rgb(211, 206, 206);
+  color: rgb(0, 0, 0);
+}
+.ContactCon h1{
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
+}
+.ContactCon table{
+  position: relative;
+  top: 80px;
+  left: 120px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.ContactCon table tr td{
+  width: 400px;
+  height: 30px;
+  font-size: 17px;
+  font-weight: 900;
+}
+.contactcoffee{
+  display: flex;
+  justify-content: flex-end;
+  position:relative;
+  top: -270px;
+  right: 100px;
+}
+.contactcoffee img{
+  width: 270px;
+  height: 450px;
+}
+
+/* About */
+.menu-banner img{
+  width: 100%;
+  height: 100%;
+}
+.Snacksitems{
+  text-align:start;
+  font-weight: 900;
+  padding-top: 50px;
+  font-size: 25px;
+}
+.Snacks{
+  text-align:start;
+}
+.Snacks table tr th{
+  font-weight: 900;
+}
+.bookbox{
+  width: 100%;
+  height: 50vh;
+  background-color: #373636;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.bookbox h1{
+  font-size: 45px;
+  font-weight: 900;
+}
+.bookbox button{
+  width: 170px;
+  height: 60px;
+  margin:auto;
+  font-size: 16px;
+  border: none;
+}
+.bookbox button:hover{
+  background-color: #030303;
+  color: white;
+}
+
+
+/* Book a Table CSS */
+
+.BookTable{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(248, 245, 245);
+}
+.booktable2 h1{
+  font-weight: 900;
+  padding-top: 30px;
+}
+input{
+  width: 550px;
+  height: 50px;
+  background-color: rgb(241, 237, 237);
+  border: none;
+  padding: 20px;
+  /* margin-top: 10px; */
+}
+.booktablebtn{
+  width: 200px;
+  font-weight: 800;
+  font-size: 17px;
+  padding: 10px 30px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  background-color: #030303;
+  margin-bottom: 50px;
+}
+.BookTablepara{
+  width: 100%;
+  background-color: white;
+  height: 100%;
+}
+.BookTablepara p{
+  font-size: 50px;
+  font-weight: 900;
+  margin: 50px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

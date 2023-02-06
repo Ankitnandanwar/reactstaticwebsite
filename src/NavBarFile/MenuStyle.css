@@ -1,0 +1,47 @@
+/* About */
+.menu-banner img{
+    width: 100%;
+    height: 100%;
+  }
+  .Snacksitems{
+    text-align:start;
+    font-weight: 900;
+    padding-top: 50px;
+    font-size: 25px;
+  }
+  .Snacks{
+    text-align:start;
+  }
+  .Snacks table tr th{
+    font-weight: 900;
+  }
+  .bookbox{
+    width: 100%;
+    height: 50vh;
+    background-color: #373636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  .bookbox h1{
+    font-size: 45px;
+    font-weight: 900;
+  }
+  .bookbox button{
+    width: 170px;
+    height: 60px;
+    margin:auto;
+    font-size: 16px;
+    border: none;
+  }
+  .bookbox button:hover{
+    background-color: #030303;
+    color: white;
+  }
+
+  .items{
+    text-align:center;
+    font-weight: 600;
+    margin-top: 20px;
+  }
